@@ -29,8 +29,8 @@ public class TestRunner
     static public void setupTimeout()
     {
         Configuration.timeout = 60000;
-        //System.setProperty("webdriver.chrome.driver", "D:/QA/drivers/chromedriver_win32_2-355/chromedriver.exe");
-        //Configuration.browser = "chrome";
+        System.setProperty("webdriver.chrome.driver", "D:/QA/drivers/chromedriver_win32_2-355/chromedriver.exe");
+        Configuration.browser = "chrome";
         open("http://eaistan-dev.proitr.ru/index.php");
     }
 }
